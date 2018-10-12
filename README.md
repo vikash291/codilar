@@ -1,4 +1,5 @@
 This webservice is for Hospital Management system where this Contains 3 things:
+
 	1. Patient Details.
 	2. Patient Medication details.
 	3. Visitor Details.
@@ -7,6 +8,7 @@ url of this service is as:
  url= "http://localhost:1234/webservice/hospital.php?action={actiontype}&pid={patient_id}"
 
  where action should be:
+ 
    1. patient -> this action will return the personal details of that perticular patient.
    2. medicine -> this action will return the medication given to that perticular patient.
    3. visitors -> this action will return the visitor details wo comes to visit that perticular patient.
