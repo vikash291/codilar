@@ -9,12 +9,14 @@ url of this service is as:
 
  where action should be:
  
-   1. patient -> this action will return the personal details of that perticular patient.
-   2. medicine -> this action will return the medication given to that perticular patient.
-   3. visitors -> this action will return the visitor details wo comes to visit that perticular patient.
- and the pid must be patient id:
+ 	1. patient -> this action will return the personal details of that perticular patient.
+   	2. medicine -> this action will return the medication given to that perticular patient.
+   	3. visitors -> this action will return the visitor details wo comes to visit that perticular patient.
+	
+ And the pid must be patient id.
  
  Output:
+ 
  	These action will return data in JSON format. which hold the status of the output ( i,e either 200 or 400) and "payload" which holds the actual data. If there is not patient then it will return message that "patient id doesn't exist".
 
  Output Format:
