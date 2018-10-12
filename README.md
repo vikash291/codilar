@@ -16,7 +16,8 @@ url of this service is as:
  	These action will return data in JSON format. which hold the status of the output ( i,e either 200 or 400) and "payload" which holds the actual data. If there is not patient then it will return message that "patient id doesn't exist".
 
  Output Format:
- 	1. Success:
+ 	
+	1. Success:
 	 	{
 		    "status": "200",
 		    "payload": {
