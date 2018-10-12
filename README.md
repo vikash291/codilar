@@ -9,9 +9,9 @@ url of this service is as:
 
  where action should be:
  
- 	1. patient -> this action will return the personal details of that perticular patient.
-   	2. medicine -> this action will return the medication given to that perticular patient.
-   	3. visitors -> this action will return the visitor details wo comes to visit that perticular patient.
+ 	1. 'patient' -> this action will return the personal details of that perticular patient.
+   	2. 'medicine' -> this action will return the medication given to that perticular patient.
+   	3. 'visitors' -> this action will return the visitor details who comes to visit that perticular patient.
 	
  And the pid must be patient id.
  
